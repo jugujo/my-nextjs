@@ -24,11 +24,11 @@ export default async function Project() {
 async function getData() {
   const notion = new Client({ auth: process.env.NOTION_TOKEN})
   const data = await notion.databases.query({ database_id: process.env.NOTION_DATABASE_ID || '' })
-  const notionList = data.results.map((_, any) => _.properties).map((_) => {
-    return {
-      Name: _.Name.title[0]?.plain_text,
-      Description: _.Description.rich_text[0]?.plain_text,
-    }
-  })
+  // const notionList = data.results.map((_, any) => _.properties).map((_) => {
+  //   return {
+  //     Name: _.Name.title[0]?.plain_text,
+  //     Description: _.Description.rich_text[0]?.plain_text,
+  //   }
+  // })
   return data.results
 }
