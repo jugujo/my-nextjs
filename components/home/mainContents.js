@@ -11,9 +11,8 @@ export default function MainContents() {
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">NextJsのポートフォリオ
             </h1>
             <p className="mb-2 leading-relaxed">このページはNextJsで作成されています。</p>
-            <p className="mb-2 leading-relaxed">※参照サイト</p>
             
-            <br/>
+            <p className="mb-2 leading-relaxed">※参照サイト</p>
             <Link href="https://nextjs.org/"  className="hover:text-gray-900" target='_blank'>■NextJs</Link>
             <Link href="https://lottiefiles.com/" className="hover:text-gray-900" target='_blank'>■LottieFiles</Link>
             <Link href="https://docs.lottiefiles.com/lottie-player/components/lottie-react/" className="hover:text-gray-900" target='_blank'>■Lottie-React</Link>
