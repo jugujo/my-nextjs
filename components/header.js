@@ -24,7 +24,7 @@ export default function Header() {
               <Link href='/rates' className="mr-5 hover:text-gray-900">
               為替情報
               </Link>
-              <a className="mr-5 hover:text-gray-900">連絡先</a>
+              {/* <a className="mr-5 hover:text-gray-900">連絡先</a> */}
             </nav>
 
             <ModeToggleButton/>

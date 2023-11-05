@@ -12,7 +12,6 @@ export default async function Project() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen px-3 mb-10">
       <title>プロジェクト</title>
-      <p className="grid grid-cols-1 gap-8 p-12 m-4 md:grid-cols-2">ノーション</p>
       <div className="grid grid-cols-1 gap-8 p-12 m-4 md:grid-cols-2">
         {list.map((item, index) => (
           <ProjectItem key={item.id} data={item}/>
