@@ -9,7 +9,6 @@ export default function Layout({children}) {
           <Providers>
             <Header/>prott
             {children}
-            <Footer/>
           </Providers>
         </div>
       </html>
